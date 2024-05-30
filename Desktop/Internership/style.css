@@ -1,0 +1,116 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    background-image:url(u.jpg);
+    background-size: cover;
+}
+.form{
+
+margin: auto;
+width: 300px;
+height: 300px;
+background-color:rgba(255,255,255,0.14);
+margin-top: 150px;
+border-radius: 4px;
+align-items: center;
+box-shadow: 2px 2px 5px 5px black;
+
+
+}
+.form input{
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background: transparent;
+    padding-bottom: 1px solid;
+     align-items: center;
+     font-size: 15px;
+     margin-top: 30px;
+     margin-left: 70px;
+     
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+
+
+}
+form h2{
+    text-align: center;
+    font-family: bold;
+    align-items: center;
+    padding-left: 9px;
+ color: white;
+    font-size: 22px;
+    margin :left;
+}
+.link{
+    color: white;
+}
+.btn {
+    width: 220px;
+    height: 30px;
+    background-color: rgb(10, 1, 19);
+    color: white;
+    margin-top: 20px;
+
+}
+.btn{
+    color: blanchedalmond;
+}
+.LOG IN{
+    color: black;
+    margin-top: 50px;
+    height: 40px;
+}
+.contact{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    margin-top: 150px;
+    border-radius: 4px;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px black;
+    
+    
+    }
+    .contact input{
+        width: 200px;
+        height: 35px;
+        color: black;
+        padding-bottom: 1px solid;
+         align-items: center;
+         font-size: 15px;
+         margin-top: 30px;
+         padding-left: 90px;
+    
+    }
+    .contact h2{
+        width: 220 px;
+        font-family: bold;
+        align-items: center;
+        padding-left: 50px;
+       color :white ; 
+        font-size: 22px;
+    }
+    .btn{
+        color: white;
+        width: 220px;
+        height: 100px;
+        margin-top: auto;
+    }
+
+    .LOG IN{
+        color: black;
+    }
+    input{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 200px;
+    }
