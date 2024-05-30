@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+</head>
+<body>
+<script type="text/javascript">
+	function isVowelOrConsonant(char) {
+    // Convert the character to lowercase to handle both uppercase and lowercase input
+    char = char.toLowerCase();
+
+    // Check if the character is a letter
+    if (/^[a-zA-Z]$/.test(char)) {
+        // Check if the character is a vowel
+        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+            return char + " is a vowel.";
+        } else {
+            return char + " is a consonant.";
+        }
+    } else {
+        return char + " is not a valid letter.";
+    }
+}
+
+</script>
+</body>
+</html>
